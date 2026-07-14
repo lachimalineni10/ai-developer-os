@@ -135,3 +135,25 @@ Detailed documentation is available inside the `docs/` directory.
 ## 📄 License
 
 This project is licensed under the MIT License.
+
+## Development
+
+### Prerequisites
+
+- Python 3.12+
+- Docker Desktop
+- uv
+
+### Run using Docker Compose
+
+```bash
+docker compose up --build
+```
+
+The application will be available at:
+
+http://localhost:8000
+
+Swagger UI:
+
+http://localhost:8000/docs
